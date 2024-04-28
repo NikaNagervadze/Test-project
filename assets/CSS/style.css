@@ -1,9 +1,49 @@
-body{
+@font-face {
+    font-family: YoungSerif;
+    src: url(/assets/fonts/YoungSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: Oufitbold;
+    src: url(/assets/fonts/Outfit-Bold.ttf);
+}
+
+@font-face {
+    font-family: Outfitregular;
+    src: url(/assets/fonts/Outfit-Regular.ttf);
+}
+
+body {
     background: #F3E5D7;
 }
 
-.background{
+.background {
     background-color: white;
     border-radius: 24px;
     max-width: 740px;
 }
+
+/* title section */
+
+.title{
+    margin-top: 40px;
+}
+
+.title h1 {
+    font-family: YoungSerif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    color: #312E2C;
+}
+
+.title p {
+    font-family: Outfitregular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #5F564D;
+}
+
