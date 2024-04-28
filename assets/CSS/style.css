@@ -25,7 +25,7 @@ body {
 
 /* title section */
 
-.title{
+.title {
     margin-top: 40px;
     margin-bottom: 30px;
 }
@@ -52,11 +52,11 @@ body {
 
 /* Preparation section */
 
-.Preparation{
+.Preparation {
     padding: 28px;
 }
 
-.Preparation h3{
+.Preparation h3 {
     font-family: Oufitbold;
     font-size: 20px;
     font-weight: 600;
@@ -66,14 +66,14 @@ body {
     padding: 0;
 }
 
-.Preparation ul{
+.Preparation ul {
     display: grid;
     gap: 8px;
     margin: 0;
     margin-left: 10px;
 }
 
-.Preparation ul li strong{
+.Preparation ul li strong {
     font-family: Oufitbold;
     font-size: 16px;
     font-weight: 700;
@@ -82,7 +82,7 @@ body {
     color: #5F564D;
 }
 
-.Preparation ul li p{
+.Preparation ul li p {
     font-family: Outfitregular;
     font-size: 16px;
     font-weight: 400;
@@ -99,12 +99,13 @@ body {
 
 /* ingredients section */
 
-.ingredients{
+.ingredients {
     margin-top: 30px;
     margin-bottom: 30px;
+    border-bottom: 1px solid #E3DDD7;
 }
 
-.ingredients h3{
+.ingredients h3 {
     font-family: YoungSerif;
     font-size: 28px;
     font-weight: 400;
@@ -113,15 +114,15 @@ body {
     color: #854632;
 }
 
-.ingredients ul{
+.ingredients ul {
     margin-left: 24px;
 }
 
-.ingredients ul li{
+.ingredients ul li {
     color: #854632;
 }
 
-.ingredients ul li p{
+.ingredients ul li p {
     font-family: Outfitregular;
     font-size: 16px;
     font-weight: 400;
@@ -132,21 +133,28 @@ body {
 
 /* finished ingredients */
 
-.instructions h3{
+/* instructions section */
+
+.instructions {
+    border-bottom: 1px solid #E3DDD7;
+
+}
+
+.instructions h3 {
     font-family: YoungSerif;
     font-size: 28px;
     font-weight: 400;
     line-height: 28px;
     text-align: left;
-    
+
     color: #854632;
 }
 
-.instructions ol{
+.instructions ol {
     margin-left: 24px;
 }
 
-.instructions ol li{
+.instructions ol li {
     font-family: Oufitbold;
     font-size: 16px;
     font-weight: 700;
@@ -155,7 +163,7 @@ body {
     color: #854632;
 }
 
-.instructions ol li strong{
+.instructions ol li strong {
     font-family: Oufitbold;
     font-size: 16px;
     font-weight: 700;
@@ -164,11 +172,64 @@ body {
     color: #5F564D;
 }
 
-.instructions ol li p{
+.instructions ol li p {
     font-family: Outfitregular;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
     color: #5F564D;
+}
+
+/* finished instructions  */
+
+.nutrition {
+    display: grid;
+    gap: 24px;
+}
+
+.nutrition h3 {
+    font-family: YoungSerif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #854632;
+}
+
+.nutrition p {
+    font-family: Outfitregular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #5F564D;
+}
+
+.details{
+    padding-left: 32px;
+    gap: 24px;
+    border-bottom: 1px solid #E3DDD7;
+}
+
+.details p:first-child {
+    font-family: Outfitregular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #5F564D;
+    max-width: 288px;
+    width: 100%;
+}
+
+.details p{
+    font-family: Oufitbold;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #854632;
+    max-width: 288px;
+    width: 100%;
 }
