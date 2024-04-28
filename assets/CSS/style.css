@@ -27,6 +27,7 @@ body {
 
 .title{
     margin-top: 40px;
+    margin-bottom: 30px;
 }
 
 .title h1 {
@@ -47,3 +48,49 @@ body {
     color: #5F564D;
 }
 
+/* finished title section */
+
+/* Preparation section */
+
+.Preparation{
+    padding: 28px;
+}
+
+.Preparation h3{
+    font-family: Oufitbold;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    color: #7A284E;
+    padding: 0;
+}
+
+.Preparation ul{
+    display: grid;
+    gap: 8px;
+    margin: 0;
+}
+
+.Preparation ul li strong{
+    font-family: Oufitbold;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #5F564D;
+}
+
+.Preparation ul li p{
+    font-family: Outfitregular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #5F564D;
+}
+
+.Preparation ul li {
+    color: #7A284E;
+    
+}
